@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>cards</title>
+        <link rel="stylesheet" href="css/papper.css" media="screen, print" title="no title" charset="utf-8">
+    </head>
+    <body>
+
+
+        <div class="hide">
+            <section class="card">
+            <header class="card__header">
+            Big Card Header
+            </header>
+            <div class="card__icon"></div>
+            </section>
+        </div>
+        <script type="text/javascript">
+            function init(ev) {
+                console.log('document loded..');
+
+                var page = document.querySelector('.page');
+                var card = document.querySelector('.card');
+
+                var icons = [
+                    {
+                        src: '../communication-icons/communications.svg',
+                        title: 'Способы коммуникации'
+                    },
+                    {
+                        src: '../communication-icons/communications-phone.svg',
+                        title: 'Телефон'
+                    },
+                    {
+                        src: '../communication-icons/communications-mobile.svg',
+                        title: 'Мобильный телефон'
+                    },
+                    {
+                        src: '../communication-icons/communications-mail.svg',
+                        title: 'Почта'
+                    },
+                    {
+                        src: '../communication-icons/communications-personal.svg',
+                        title: 'Личная беседа'
+                    },
+                    {
+                        src: '../communication-icons/communications-business-trip.svg',
+                        title: 'Коммандировка'
+                    },
+                    {
+                        src: '../communication-icons/communications-work-group.svg',
+                        title: 'Рабочая группа'
+                    },
+                    {
+                        src: '../communication-icons/communications-meeting.svg',
+                        title: 'Собрание'
+                    },
+                    {
+                        src: '../communication-icons/communications-videoconference.svg',
+                        title: 'Видео-конференция'
+                    },
+                    {
+                        src: '../communication-icons/communications-feedback.svg',
+                        title: 'Обратная связь'
+                    },
+                    {
+                        src: '../communication-icons/communications-ev.svg',
+                        title: 'Easy Vista'
+                    },
+                    {
+                        src: '../communication-icons/communications-template.svg',
+                        title: ''
+                    }
+                ];
+
+                // icons = Array.apply(null, {length: 64});
+
+                icons
+                    .reduce(function (prev, val, idx) {
+                        console.log(arguments);
+                        var i = idx/64>>0;
+
+                        if(prev[i] === undefined) {prev[i] = []};
+                        prev[i].push(val);
+
+                        return prev;
+                    }, [])
+                    .forEach(function (iconArray, idx) {
+                        var page = document.createElement('div');
+                        page.classList.add('page');
+
+                        iconArray.forEach(function (icon, idx){
+                            var newCard = card.cloneNode(true);
+
+                            if(!!icon){
+                                var cardHeader = newCard.querySelector('.card__header');
+                                cardHeader.innerText = icon.title;
+
+                                var img = document.createElement('img');
+                                img.src = icon.src;
+                                img.classList.add('card__icon-image');
+                                var cardIcon = newCard.querySelector('.card__icon');
+
+                                cardIcon.appendChild(img);
+                            };
+
+
+                            page.appendChild(newCard);
+                        });
+
+                        document.body.appendChild(page);
+                    });
+            };
+
+            // console.log(document);
+            document.addEventListener("DOMContentLoaded", init);
+        </script>
+
+    </body>
+</html>
