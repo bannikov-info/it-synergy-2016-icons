@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>cards</title>
-        <link rel="stylesheet" href="css/papper.css" media="screen, print" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="css/papper.css" media="print" title="no title" charset="utf-8">
     </head>
     <body>
 
 
         <div class="hide">
-            <section class="card">
+            <section class="card card_a9_portrait">
             <header class="card__header">
             Big Card Header
             </header>
@@ -89,6 +90,7 @@
                     .forEach(function (iconArray, idx) {
                         var page = document.createElement('div');
                         page.classList.add('page');
+                        page.classList.add('page_a4_landscape');
 
                         iconArray.forEach(function (icon, idx){
                             var newCard = card.cloneNode(true);
