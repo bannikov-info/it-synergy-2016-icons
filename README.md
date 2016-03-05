@@ -5,17 +5,17 @@
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications.svg) Способы коммуникации (Банников Евгений)
 Иконка | Название | Описание
 -------|----------|----------
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-template.svg) | Шаблон Способы Коммуникации |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mobile.svg)  | Мобильная связь |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-ev.svg) | Easy Vista |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-phone.svg) | Внутренний телефон |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-business-trip.svg) | Коммандировка |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-feedback.svg) | Обратная связь |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-videoconference.svg) | Видеоконференция |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-personal.svg) | Личный контакт |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-template.svg) | Шаблон Способы Коммуникации | Используется для создания карточек способов/каналов коммуникации
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mobile.svg)  | Мобильная связь | Отражает канал коммуникации по мобильному телефону/мессенджеры
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-ev.svg) | Easy Vista | Отражает канал коммуникации через систему Easy Vista
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-phone.svg) | Внутренний телефон | Отражает канал коммуникации через корпоративную телефонную систему по внутреннему короткому номеру
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-business-trip.svg) | Коммандировка | Отражает способ коммуникации через коммандировки
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа | Отражает способ коммуникации через рабочие группы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания | Отражает способ коммуникации через собрания
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-feedback.svg) | Обратная связь | Отражает обратную связь по результатапм работы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-videoconference.svg) | Видеоконференция | Отражает способ коммуникации через видеоконференции
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-personal.svg) | Личный контакт | Отраражает способ коммуникации по средством личного контакта/беседы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта | Отражает способ коммуникации через электронную почту
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 ## Проблема (Кирилл Гриднев 004)
