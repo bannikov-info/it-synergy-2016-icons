@@ -52,6 +52,42 @@ function init(ev) {
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-template.svg',
             title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks.svg',
+            title: 'Области задач'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-service-request.svg',
+            title: 'Запрос на обслуживание'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-change-request.svg',
+            title: 'Запрос на изменение'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-audit.svg',
+            title: 'Аудит'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-bi.svg',
+            title: 'Аналитика'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-automation.svg',
+            title: 'Автоматизация'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-failure-elimination.svg',
+            title: 'Устранение сбоев'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg',
+            title: 'Консультирование и обучение'
         }
     ];
 
