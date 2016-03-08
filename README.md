@@ -5,17 +5,17 @@
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications.svg) Способы коммуникации (Банников Евгений)
 Иконка | Название | Описание
 -------|----------|----------
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-template.svg) | Шаблон Способы Коммуникации |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mobile.svg)  | Мобильная связь |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-ev.svg) | Easy Vista |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-phone.svg) | Внутренний телефон |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-business-trip.svg) | Коммандировка |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-feedback.svg) | Обратная связь |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-videoconference.svg) | Видеоконференция |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-personal.svg) | Личный контакт |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-template.svg) | Шаблон Способы Коммуникации | Используется для создания карточек способов/каналов коммуникации
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mobile.svg)  | Мобильная связь | Отражает канал коммуникации по мобильному телефону/мессенджеры
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-ev.svg) | Easy Vista | Отражает канал коммуникации через систему Easy Vista
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-phone.svg) | Внутренний телефон | Отражает канал коммуникации через корпоративную телефонную систему по внутреннему короткому номеру
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-business-trip.svg) | Коммандировка | Отражает способ коммуникации через коммандировки
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа | Отражает способ коммуникации через рабочие группы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания | Отражает способ коммуникации через собрания
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-feedback.svg) | Обратная связь | Отражает обратную связь по результатапм работы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-videoconference.svg) | Видеоконференция | Отражает способ коммуникации через видеоконференции
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-personal.svg) | Личный контакт | Отраражает способ коммуникации по средством личного контакта/беседы
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта | Отражает способ коммуникации через электронную почту
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 ## Проблема (Кирилл Гриднев 004)
@@ -100,24 +100,24 @@
  | Обучение |
  | Хранилище инструкций |
  | Внутренние Приказы |
- | Опыт\знания |
+ | Опыт\\знания |
  | Отвественность |
  | Положение по ИБ |
  | Должностная инструкция |
 
 --------------------------------------------------------------
 
-## Области задач (Банников Евгений 025)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks.svg) Области задач (Банников Евгений 025)
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Области Задач |
- | Запросы на обслуживание |
- | Изменение |
- | Аудит |
- | Аналитика |
- | Автоматизация |
- | Устранение сбоев |
- | Консультация и обучение |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-template.svg) | Шаблон Области Задач |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-service-request.svg) | Запросы на обслуживание |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-change-request.svg) | Запрос на изменение |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-audit.svg) | Аудит |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-bi.svg) | Аналитика |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-automation.svg) | Автоматизация |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-failure-elimination.svg) | Устранение сбоев |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg) | Консультация и обучение |
 
 -----------------------------------------------------------------
 ## ДРУГОЕ (Яков Ломов 037)
