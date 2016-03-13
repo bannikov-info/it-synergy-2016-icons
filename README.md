@@ -63,32 +63,32 @@
  |  |
 
  -------------------------------------------------------------------------------------------------------------------------------------------
-## Место присутствия (Николай Ветров 043)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site.svg) Место присутствия (Николай Ветров 043)
 
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Место Присутствия |
- | временный офис |
- | Временная приемка |
- | Магазин |
- | Региональный офис |
- | Удаленное рабочее место |
- | Часовые пояса |
- | Бализаж |
- | Регион ЛМ |
- | АРМ |
- | РЦ |
- | ЦО |
- | Открывающиеся магазины |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-template.svg) | Шаблон Место Присутствия |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-office.svg) | временный офис |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-reception-48px.svg) | Временная приемка |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-shop.svg) | Магазин |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-region-office.svg) | Региональный офис |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-remote-work-area.svg) | Удаленное рабочее место |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-time-zones.svg) | Часовые пояса |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-balisage.svg) | Бализаж |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-regions.svg) | Регион ЛМ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-work-area.svg) | АРМ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-distribution-center.svg) | РЦ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-central-office.svg) | ЦО |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-new-shop.svg) | Открывающиеся магазины |
 ------------------------------------------------------------
-## Оборудование (Николай Ветров 043)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw.svg) Оборудование (Николай Ветров 043)
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Оборудование |
- | СХД |
- | Мобильная связь |
- | Оргтехника |
- | Сервера |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-template.svg) | Шаблон Оборудование |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-san.svg) | СХД |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-mobile.svg) | Мобильная связь |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-office.svg) | Оргтехника |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-server.svg) | Сервера |
 
 --------------------------------------------------------------------
 
