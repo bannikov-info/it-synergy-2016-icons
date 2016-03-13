@@ -88,7 +88,88 @@ function init(ev) {
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg',
             title: 'Консультирование и обучение'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site.svg',
+            title: 'Места присутствия'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-office.svg',
+            title: 'Временный офис'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-reception-48px.svg',
+            title: 'Временная приемка'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-shop.svg',
+            title: 'Магазин'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-region-office.svg',
+            title: 'Региональный офис'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-remote-work-area.svg',
+            title: 'Удаленное рабочее место'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-time-zones.svg',
+            title: 'Часовые пояса'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-balisage.svg',
+            title: 'Бализаж'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-regions.svg',
+            title: 'Регион ЛМ'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-work-area.svg',
+            title: 'АРМ'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-distribution-center.svg',
+            title: 'Распределительный Центр'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-central-office.svg',
+            title: 'Центральный Офис'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-new-shop.svg',
+            title: 'Открывающиеся магазины'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw.svg',
+            title: 'Оборудование'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-san.svg',
+            title: 'СХД'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-mobile.svg',
+            title: 'Мобильная связь'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-office.svg',
+            title: 'Оргтехника'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-server.svg',
+            title: 'Сервера'
         }
+
     ];
 
     // icons = Array.apply(null, {length: 64});
