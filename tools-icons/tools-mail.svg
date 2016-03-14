@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.611619mm"
-   height="13.669834mm"
-   viewBox="0 0 48.230146 48.43642"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
    id="svg5141"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Почта.svg">
+   sodipodi:docname="tools-mail.svg">
   <defs
      id="defs5143" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="69.115077"
-     inkscape:cy="-78.638937"
+     inkscape:cx="-366.59921"
+     inkscape:cy="-78.638939"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata5146">
     <rdf:RDF>
@@ -56,9 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-161.59921,-405.28685)">
+     transform="translate(-161.59921,-405.72327)">
     <g
-       id="g5159">
+       id="g5159"
+       transform="matrix(0.99522816,0,0,0.99098984,0.77112499,4.0881194)">
       <path
          inkscape:connector-curvature="0"
          id="path3402-0"

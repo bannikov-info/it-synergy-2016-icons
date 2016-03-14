@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.397779mm"
-   height="13.38457mm"
-   viewBox="0 0 47.472444 47.425642"
+   width="48"
+   height="48"
+   viewBox="0 0 47.999998 47.999998"
    id="svg5254"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="уникальные проекты магазина.svg">
+   sodipodi:docname="tools-shop-projects.svg">
   <defs
      id="defs5256" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-111.26378"
-     inkscape:cy="-182.00146"
+     inkscape:cx="-546.97806"
+     inkscape:cy="-182.00147"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata5259">
     <rdf:RDF>
@@ -56,9 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-341.97806,-302.9351)">
+     transform="translate(-341.97806,-302.36074)">
     <g
-       id="g5276">
+       id="g5276"
+       transform="matrix(1.0111128,0,0,1.0121106,-3.8003367,-4.2430915)">
       <path
          inkscape:connector-curvature="0"
          id="path3402-67"

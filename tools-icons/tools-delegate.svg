@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.682887mm"
-   height="13.38457mm"
-   viewBox="0 0 48.482671 47.425642"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 47.999998"
    id="svg4798"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Делигирование прав.svg">
+   sodipodi:docname="tools-delegate.svg">
   <defs
      id="defs4800" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="49.241337"
-     inkscape:cy="-42.001463"
+     inkscape:cx="-103.25866"
+     inkscape:cy="-42.00147"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata4803">
     <rdf:RDF>
@@ -56,9 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-181.47295,-362.9351)">
+     transform="translate(-181.47295,-362.36074)">
     <g
-       id="g4822">
+       id="g4822"
+       transform="matrix(0.99004445,0,0,1.0121107,1.8066622,-4.9697631)">
       <path
          inkscape:connector-curvature="0"
          id="path3402"

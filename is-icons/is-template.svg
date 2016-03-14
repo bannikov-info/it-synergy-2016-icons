@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.469068mm"
-   height="13.52722mm"
-   viewBox="0 0 47.725043 47.931093"
+   width="48"
+   height="48.207241"
+   viewBox="0 0 47.999999 48.207239"
    id="svg13762"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Шаблон ИС.svg">
+   sodipodi:docname="is-template.svg">
   <defs
      id="defs13764" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="43.903846"
-     inkscape:cy="29.094699"
+     inkscape:cx="5.3917768"
+     inkscape:cy="29.0947"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,7 +40,8 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:snap-text-baseline="false" />
+     inkscape:snap-text-baseline="false"
+     units="px" />
   <metadata
      id="metadata13767">
     <rdf:RDF>
@@ -57,7 +58,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(430.05229,4.9037491)">
+     transform="translate(430.05229,5.1798931)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -80,7 +81,8 @@
            x="-14.647212"
            y="-16.437834" /></flowRegion><flowPara
          id="flowPara3362" /></flowRoot>    <g
-       id="g4166">
+       id="g4166"
+       transform="matrix(1.0057613,0,0,1.0057613,2.4776653,-0.24789394)">
       <path
          inkscape:connector-curvature="0"
          id="path3464"

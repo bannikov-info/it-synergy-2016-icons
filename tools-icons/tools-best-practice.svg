@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.397777mm"
-   height="13.38457mm"
-   viewBox="0 0 47.472437 47.425642"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000002 47.999998"
    id="svg4987"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Лучшие практики.svg">
+   sodipodi:docname="tools-best-practice.svg">
   <defs
      id="defs4989" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-31.263777"
+     inkscape:cx="-31.263782"
      inkscape:cy="-250.57289"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -39,7 +39,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata4992">
     <rdf:RDF>
@@ -56,9 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-261.97806,-234.36367)">
+     transform="translate(-261.97807,-233.78931)">
     <g
-       id="g5007">
+       id="g5007"
+       transform="matrix(1.0111131,0,0,1.0121108,-2.9113861,-3.4126937)">
       <path
          inkscape:connector-curvature="0"
          id="path3402-8"

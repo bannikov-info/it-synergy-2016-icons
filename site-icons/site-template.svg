@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.463934mm"
-   height="13.463934mm"
-   viewBox="0 0 47.706853 47.706852"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48"
    id="svg13762"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="МЕСТО ПРИСУТСТВИЯ2.svg">
+   sodipodi:docname="site-template.svg">
   <defs
      id="defs13764" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="24.328099"
-     inkscape:cy="23.579666"
+     inkscape:cx="4.8021525"
+     inkscape:cy="24.081143"
      inkscape:document-units="px"
      inkscape:current-layer="g4137"
      showgrid="false"
@@ -39,7 +39,8 @@
      inkscape:window-height="828"
      inkscape:window-x="750"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     units="px" />
   <metadata
      id="metadata13767">
     <rdf:RDF>
@@ -56,18 +57,18 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(343.85343,-8.5087792)">
+     transform="translate(343.58352,-8.7171093)">
     <g
        id="g4137">
       <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:#be1b05;stroke-width:3.66999984;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#ffffff;fill-opacity:1;stroke:#be1b05;stroke-width:3.65384936;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
          id="rect13740"
-         width="44.542168"
-         height="44.542168"
-         x="-341.7485"
-         y="10.339942"
-         ry="1.8348789"
-         rx="1.8348789" />
+         width="44.346149"
+         height="44.346149"
+         x="-341.75659"
+         y="10.544034"
+         ry="1.8268042"
+         rx="1.8268042" />
       <g
          id="g4391"
          transform="translate(-0.668516,-1.215194)">

@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.682887mm"
-   height="13.38457mm"
-   viewBox="0 0 48.482671 47.425642"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 47.999998"
    id="svg4875"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="интрару.svg">
+   sodipodi:docname="tools-intraru.svg">
   <defs
      id="defs4877" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="14.955617"
+     inkscape:cx="-420.75867"
      inkscape:cy="-242.00146"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -39,7 +39,8 @@
      inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata4880">
     <rdf:RDF>
@@ -56,9 +57,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-215.75867,-242.9351)">
+     transform="translate(-215.75867,-242.36074)">
     <g
-       id="g4893">
+       id="g4893"
+       transform="matrix(0.99004445,0,0,1.0121107,2.1479952,-3.5164769)">
       <path
          inkscape:connector-curvature="0"
          id="path3402-4"
