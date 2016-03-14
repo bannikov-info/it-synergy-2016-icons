@@ -128,31 +128,31 @@
 
 -----------------------------------------------------------------
 
-## Инструменты\\методы решения (Александр Бутусин 030)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools.svg) Инструменты\\методы решения (Александр Бутусин 030)
 -----------------------------------------------------------------
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Инструменты\\методы Решения |
- | Инцидент |
- | Почта |
- | Система учета заявок |
- | Инструменты ИТ |
- | мониторинг |
- | Планирование |
- | Лучшие практики |
- | уникальные проекты магазина |
- | Делегирование прав |
- | Интрару |
- | Телефон |
- | макрос |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-template.svg) | Шаблон Инструменты\\методы Решения |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-incident.svg) | Инцидент |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-mail.svg) | Почта |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-helpdesk.svg) | Система учета заявок |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-it.svg) | Инструменты ИТ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-monitoring.svg) | мониторинг |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-planing.svg) | Планирование |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-best-practice.svg) | Лучшие практики |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-shop-projects.svg) | уникальные проекты магазина |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-delegate.svg) | Делегирование прав |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-intraru.svg) | Интрару |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-phone.svg) | Телефон |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-makros.svg) | макрос |
 
 -----------------------------------------------------------
 
-## ИС  (Александр Бутусин 030)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/is-icons/is.svg) ИС  (Александр Бутусин 030)
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон ИС |
- | Облако |
- | Информационный поток |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/is-icons/is-template.svg) | Шаблон ИС |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/is-icons/is-cloud.svg) | Облако |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/is-icons/is-flow.svg) | Информационный поток |
 
 -------------------------------------------------------------------
