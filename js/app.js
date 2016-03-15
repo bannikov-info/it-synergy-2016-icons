@@ -95,7 +95,7 @@ function init(ev) {
         },
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-template.svg',
-            title: 'Инцидент'
+            title: ''
         },
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-incident.svg',
@@ -240,6 +240,98 @@ function init(ev) {
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-server.svg',
             title: 'Сервера'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing.svg',
+            title: 'Знания Компании'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-specialist.svg',
+            title: 'Знания ИТ специалиста'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-education.svg',
+            title: 'Обучение'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-store.svg',
+            title: 'Хранилище инструкций'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-internal-orders.svg',
+            title: 'Внутренние Приказы'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-experience.svg',
+            title: 'Опыт\\знания'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-responsibility.svg',
+            title: 'Отвественность'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-secure.svg',
+            title: 'Положение по ИБ'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-official-instructions.svg',
+            title: 'Должностная инструкция'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other.svg',
+            title: 'Другое'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other-iniciative.svg',
+            title: 'Инициативы'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw.svg',
+            title: 'SW\\Программное обеспечение'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-std-soft.svg',
+            title: 'Стандартизированное ПО'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-license.svg',
+            title: 'Лицензии'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-other-soft.svg',
+            title: 'Стороннее ПО'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable.svg',
+            title: 'Проблема'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-importance.svg',
+            title: 'Важность'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-data-range.svg',
+            title: 'Тайминг (сроки)'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-priority.svg',
+            title: 'Срочность'
         }
     ];
 
