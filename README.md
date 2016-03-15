@@ -18,24 +18,24 @@
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта | Отражает способ коммуникации через электронную почту
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-## Проблема (Кирилл Гриднев 004)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable.svg) Проблема (Кирилл Гриднев 004)
 
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Проблема |
- | Важность |
- | Тайминг( сроки) |
- | Срочность |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-template.svg) | Шаблон Проблема |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-Importance.svg) | Важность |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-data-range.svg) | Тайминг( сроки) |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-priority.svg) | Срочность |
 
 ------------------------------------------------------------
-## SW\\Программное обеспечение (Кирилл Гриднев 004)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw.svg) SW\\Программное обеспечение (Кирилл Гриднев 004)
 
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон SW |
- | Стандартизированное ПО |
- | Лицензии |
- | Стороннее ПО |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-template.svg) | Шаблон SW |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-std-soft.svg) | Стандартизированное ПО |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-license.svg) | Лицензии |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-other-soft.svg) | Стороннее ПО |
 
 -------------------------------------------------------------------
 
@@ -92,18 +92,18 @@
 
 --------------------------------------------------------------------
 
-## Знания Компании (Кирилл Гриднев 004)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing.svg) Знания Компании (Кирилл Гриднев 004)
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Знания Компании |
- | Знания ИТ специалиста |
- | Обучение |
- | Хранилище инструкций |
- | Внутренние Приказы |
- | Опыт\\знания |
- | Отвественность |
- | Положение по ИБ |
- | Должностная инструкция |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-template.svg) | Шаблон Знания Компании |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-spectial.svg) | Знания ИТ специалиста |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-education.svg) | Обучение |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-store.svg) | Хранилище инструкций |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-internal-orders.svg) | Внутренние Приказы |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-experience.svg) | Опыт\\знания |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-responsibility.svg) | Отвественность |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-secure.svg) | Положение по ИБ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-official-instructions.svg) | Должностная инструкция |
 
 --------------------------------------------------------------
 
@@ -120,11 +120,11 @@
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg) | Консультация и обучение |
 
 -----------------------------------------------------------------
-## ДРУГОЕ (Кирилл Гриднев 004)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other.svg) ДРУГОЕ (Кирилл Гриднев 004)
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Другое |
- | Инициативы |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other-template.svg) | Шаблон Другое |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other-iniciative.svg) | Инициативы |
 
 -----------------------------------------------------------------
 
