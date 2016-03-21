@@ -380,7 +380,7 @@ function init(ev) {
             var formatIdx = Number.parseInt(match[1]);
             var cardOrient = match[2];
             console.log('card orientation: '+cardOrient);
-            cosole.log('formatIdx: '+formatIdx);
+            console.log('formatIdx: '+formatIdx);
             var pgOrient = "";
             if (formatIdx%2 == 0){
                 pgOrient = cardOrient;
