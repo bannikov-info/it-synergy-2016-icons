@@ -388,7 +388,7 @@ function init(ev) {
             
             var pg = $('.page');
             pg.removeClass('page_a4_landscape', 'page_a4_portrait');
-            pg.addClass(['page','a4',pg_orient].join('_'));
+            pg.addClass(['page','a4',pgOrient].join('_'));
             
             var cd = $('.card');
             cd.removeClass(function(){
