@@ -403,7 +403,7 @@ function init(ev) {
             cd.addClass(className);
         };
         
-        docoment.getPageFormat= function(){
+        document.getPageFormat= function(){
             var pg = $('page')[0];
             var reg = /^page_(a\d{1:2}_(landscape|portrait))/i;
             return Array.prototype.reduce.call(pg.classList, function(prev, el){
