@@ -391,7 +391,7 @@ function init(ev) {
             console.log('pgOrient: '+pgOrient);
             
             var pg = $('.page');
-            pg.removeClass(['page_a4_landscape', 'page_a4_portrait']);
+            pg.removeClass(['page_a4_landscape', 'page_a4_portrait'].join(' '));
             pg.addClass(['page','a4',pgOrient].join('_'));
             
             var cd = $('.card');
