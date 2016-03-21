@@ -380,13 +380,15 @@ function init(ev) {
             var formatIdx = Number.parseInt(match[1]);
             var cardOrient = match[2];
             console.log('card orientation: '+cardOrient);
+            cosole.log('formatIdx: '+formatIdx);
             var pgOrient = "";
             if (formatIdx%2 == 0){
-                pgOrient = cardOrient || "portrait"
+                pgOrient = cardOrient;
             }else{
                 pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
                 
             };
+            console.log('pgOrient: '+pgOrient);
             
             var pg = $('.page');
             pg.removeClass('page_a4_landscape', 'page_a4_portrait');
