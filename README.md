@@ -32,19 +32,20 @@
 Иконка | Название | Описание
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-template.svg) | Шаблон Проблема |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-Importance.svg) | Важность |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-importance.svg) | Важность |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-data-range.svg) | Тайминг( сроки) |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-priority.svg) | Срочность |
 
 ------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw.svg) SW\\Программное обеспечение (Кирилл Гриднев 004)
 
+
 Иконка | Название | Описание
 -------|----------|----------
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-template.svg) | Шаблон SW |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-std-soft.svg) | Стандартизированное ПО |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-license.svg) | Лицензии |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-other-soft.svg) | Стороннее ПО |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-template.svg) | Шаблон SW | Используется для создания карточек "Программное обеспечени"
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-std-soft.svg) | Стандартизированное ПО | Программное обеспечение рекомендованное для использования IT-отделом ЦО. К этой группе ПО также относятся макросы и скрипты как разработанные сотрудниками ЦО, так и принятые ими на поддержку/обслуживание.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-license.svg) | Лицензии | Документ, подтверждающий право использования ПО.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/sw-icons/sw-other-soft.svg) | Стороннее ПО | ПО не прошедшее процедуру проверки и принятия к использованию внутри компании. К этому виду ПО также относятся макросы/скрипты разработанные силами магазина.
 
 -------------------------------------------------------------------
 
@@ -55,7 +56,7 @@
  | Шаблон Роль |
  | ИТ координатор |
  | Ит специалист магазина |
- | Клиенты |
+ | Клиент |
  | ОРГА |
  | Пользователь |
  | Аутсорсинг |
@@ -69,10 +70,11 @@
  | 3 уровень поддержки |
  | Helpdesk |
  | Директора ИТ |
- |  |
 
  -------------------------------------------------------------------------------------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site.svg) Место присутствия (Николай Ветров 043)
+
+Иконки из этого набора используются для отражения на схемах мест, где исполь
 
 Иконка | Название | Описание
 -------|----------|----------
