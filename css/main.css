@@ -67,6 +67,14 @@ body{
     width: 52.17em;
     height: 37em;
 }
+.card_a10_portrait{
+    height: 37em;
+    width: 26em;
+}
+.card_a10_landscape{
+    width: 37em;
+    height: 26em;
+}
 
 
 .card__icon{
