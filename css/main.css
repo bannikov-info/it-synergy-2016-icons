@@ -6,7 +6,11 @@ html{
     font-family: sans-serif;
     background-color: gray;
 }
-
+@media print{
+    html{
+        font-size: 1mm;
+    }
+}
 body{
     /*border: .1px solid transparent;*/
     padding: 0;
@@ -29,6 +33,12 @@ body{
     align-items: start;
     align-content: flex-start;
 }
+@media print{
+    .page{
+        font-size: 1mm;    
+    }
+    
+}
 .page_a4_landscape{
     min-height: 210em;
     width: 296em;
@@ -46,10 +56,25 @@ body{
     /*line-height: 1.042em;   */
     padding: 4em;
 }
+
+.card__icon{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 24.5em;
+    height: 24.5em;
+}
+
+
+
 .card_a7_portrait{
     height: 105em;
     width: 74em;
 }
+.card_a7_landscape{
+    width: 105em;
+    height: 74em;
+}
+
 .card_a8_portrait{
     height: 74em;
     width: 52.5em;
@@ -60,13 +85,29 @@ body{
 }
 
 .card_a9_portrait{
-    height: 52.17em;
+    height: 52.3em;
     width: 37em;
 }
 .card_a9_landscape{
-    width: 52.17em;
-    height: 37em;
+    width: 52.5em;
+    height: 37.1em;
 }
+.card_a9_landscape .card__icon{
+    width: 21em;
+    height: 21em;
+}
+/*.card_a9_portrait .card__icon{*/
+/*    width: 24.5em;*/
+/*    height: 24.5em;*/
+/*}*/
+.card_a9_landscape .card__header,
+.card_a9_portrait .card__header{
+    font-size: 4em;
+}
+.card_a9_landscape .card__header{
+    height: 2em;
+}
+
 .card_a10_portrait{
     height: 37em;
     width: 26em;
@@ -75,14 +116,22 @@ body{
     width: 37em;
     height: 26em;
 }
-
-
-.card__icon{
-    width: 24.5em;
-    height: 24.5em;
-    margin: 0 auto;
-    box-sizing: border-box;
+.card_a10_landscape .card__icon,
+.card_a10_portrait .card__icon{
+    width: 12em;
+    height: 12em;
 }
+.card_a10_landscape .card__icon{
+    margin: 0;
+}
+.card_a10_landscape .card__header,
+.card_a10_portrait .card__header{
+    /*display: none;*/
+    font-size: 3em;
+    height: 6rem;
+}
+
+
 .card__icon:empty{
     border: 2em solid black;
     border-radius: 1em;
@@ -92,6 +141,7 @@ body{
     width: 100%;
     height: 100%;
 }
+
 
 .card__header{
     height: 12.5rem;

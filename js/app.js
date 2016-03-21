@@ -1,5 +1,5 @@
 function init(ev) {
-    console.log('document loded..');
+    // console.log('document loded..');
 
     var page = document.querySelector('.page');
     var card = document.querySelector('.card');
@@ -334,13 +334,16 @@ function init(ev) {
             title: 'Срочность'
         }
     ];
+    
+    document.cardsPerPage = 200;
 
     // icons = Array.apply(null, {length: 64});
 
-    icons
+    icons.concat(icons)
         .reduce(function (prev, val, idx) {
-            console.log(arguments);
-            var i = idx/64>>0;
+            // console.log(arguments);
+            
+            var i = idx/document.cardsPerPage>>0;
 
             if(prev[i] === undefined) {prev[i] = []};
             prev[i].push(val);
@@ -354,10 +357,10 @@ function init(ev) {
                 var newCard = card.cloneNode(true);
 
                 if(!!icon){
-                    console.log(icon);
+                    // console.log(icon);
                     var cardHeader = newCard.querySelector('.card__header');
                     cardHeader.innerText = cardHeader.textContent = icon.title;
-                    console.log(cardHeader.innerText);
+                    // console.log(cardHeader.innerText);
 
                     var img = document.createElement('img');
                     img.src = icon.src;
@@ -374,53 +377,59 @@ function init(ev) {
             document.body.appendChild(newPage);
         });
         
-        document.setCardFormatClass = function(className){
-            var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
-            var match = className.match(reg);
-            var formatIdx = Number.parseInt(match[1]);
-            var cardOrient = match[2];
-            console.log('card orientation: '+cardOrient);
-            console.log('formatIdx: '+formatIdx);
-            var pgOrient = "";
-            if (formatIdx%2 == 0){
-                pgOrient = cardOrient;
-            }else{
-                pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
-                
-            };
-            console.log('pgOrient: '+pgOrient);
-            
-            var pg = $('.page');
-            pg.removeClass(['page_a4_landscape', 'page_a4_portrait'].join(' '));
-            pg.addClass(['page','a4',pgOrient].join('_'));
-            
-            var cd = $('.card');
-            cd.removeClass(function(){
-                return ['a7','a8','a9','a10']
-                         .map(function(v){
-                            return ['landscape', 'portrait']
-                                        .map(function(v2){return [v,v2].join('_')})
-                                        .map(function(v){return ['card', v].join('_')})
-                                        .join(' ')})
-                         .join(' ');
-            });
-            cd.addClass(className);
-        };
+        window.addEventListener('hashchange', function (ev) {
+            // body...
+            // debugger;
+            var hash = location.hash.slice(1);
+            if((/card_a\d{1,2}_(landscape|portrait)/i).test(hash)){
+                document.setCardFormat(hash);
+            }
+        }, false);
         
-        document.getPageFormat= function(){
-            var pg = $('page')[0];
-            var reg = /^page_(a\d{1:2}_(landscape|portrait))/i;
-            return Array.prototype.reduce.call(pg.classList, function(prev, el){
-                var match = el.match(reg);
-                if(!!match){
-                    return {
-                        format: match[1],
-                        orientation: match[2]
-                    };
-                };
-            }, null)
+        
+        var hash = location.hash.slice(1);
+        if((/card_a\d{1,2}_(landscape|portrait)/i).test(hash)){
+            document.setCardFormat(hash);
         }
+        
+        location.hash = location.hash || "card_a9_portrait";
+        
 };
 
-// console.log(document);
+// // console.log(document);
 document.addEventListener("DOMContentLoaded", init);
+
+
+
+document.setCardFormat = function(className){
+    var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
+    var match = className.match(reg);
+    var formatIdx = Number.parseInt(match[1]);
+    var cardOrient = match[2];
+    // console.log('card orientation: '+cardOrient);
+    // console.log('formatIdx: '+formatIdx);
+    var pgOrient = "";
+    if (formatIdx%2 == 0){
+        pgOrient = cardOrient;
+    }else{
+        pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
+        
+    };
+    // console.log('pgOrient: '+pgOrient);
+    
+    var pg = $('.page');
+    pg.removeClass(['page_a4_landscape', 'page_a4_portrait'].join(' '));
+    pg.addClass(['page','a4',pgOrient].join('_'));
+    
+    var card = $('.card');
+    card.removeClass(function(){
+        return ['a7','a8','a9','a10']
+                 .map(function(v){
+                    return ['landscape', 'portrait']
+                                .map(function(v2){return [v,v2].join('_')})
+                                .map(function(v){return ['card', v].join('_')})
+                                .join(' ')})
+                 .join(' ');
+    });
+    card.addClass(className);
+};
