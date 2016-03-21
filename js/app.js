@@ -373,6 +373,49 @@ function init(ev) {
 
             document.body.appendChild(newPage);
         });
+        
+        document.setCardFormatClass = function(className){
+            var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
+            var match = className.match(reg);
+            var formatIdx = Number.parseInt(match[1]);
+            var cardOrient = match[2];
+            var pgOrient = "";
+            if (formatIdx%2 != 0){
+                pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
+            }else{
+                pgOrient = cardOrient || "portrait"
+            };
+            
+            var pg = $('.page');
+            pg.removeClass('page_a4_landscape', 'page_a4_portrait');
+            pg.addClass(['page','a4',pg_orient].join('_'));
+            
+            var cd = $('.card');
+            cd.removeClass(function(){
+                return ['a7','a8','a9','a10']
+                         .map(function(v){
+                            return ['landscape', 'portrait']
+                                        .map(function(v2){return [v,v2].join('_')})
+                                        .map(function(v){return ['card', v].join('_')})
+                                        .join(' ')})
+                         .join(' ');
+            });
+            cd.addClass(className);
+        };
+        
+        docoment.getPageFormat= function(){
+            var pg = $('page')[0];
+            var reg = /^page_(a\d{1:2}_(landscape|portrait))/i;
+            return Array.prototype.reduce.call(pg.classList, function(prev, el){
+                var match = el.match(reg);
+                if(!!match){
+                    return {
+                        format: match[1],
+                        orientation: match[2];
+                    };
+                };
+            }, null)
+        }
 };
 
 // console.log(document);
