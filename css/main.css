@@ -39,12 +39,15 @@ body{
     }
     
 }
+.pg-wrapper{
+        page-break-after:always;
+    }    
 .page_a4_landscape{
-    min-height: 210em;
+    /*min-height: 210em;*/
     width: 296em;
 }
 .page_a4_portrait{
-    min-height: 296em;
+    /*min-height: 296em;*/
     width: 210em;
 }
 
@@ -52,9 +55,9 @@ body{
     box-sizing: border-box;
     display: block;
     /*outline:.25em dashed lightgray;*/
-    border: .5em solid black;
+    border: 1em solid black;
     /*line-height: 1.042em;   */
-    padding: 4em;
+    padding: 3em;
 }
 
 .card__icon{
@@ -85,7 +88,7 @@ body{
 }
 
 .card_a9_portrait{
-    height: 52.3em;
+    height: 52.25em;
     width: 37em;
 }
 .card_a9_landscape{
@@ -109,12 +112,12 @@ body{
 }
 
 .card_a10_portrait{
-    height: 37em;
-    width: 26em;
+    height: 37.13em;
+    width: 26.25em;
 }
 .card_a10_landscape{
     width: 37em;
-    height: 26em;
+    height: 26.13em;
 }
 .card_a10_landscape .card__icon,
 .card_a10_portrait .card__icon{

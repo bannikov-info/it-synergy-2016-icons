@@ -250,7 +250,7 @@ function init(ev) {
             title: ''
         },
         {
-            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-specialist.svg',
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-special.svg',
             title: 'Знания ИТ специалиста'
         },
         {
@@ -335,11 +335,11 @@ function init(ev) {
         }
     ];
     
-    document.cardsPerPage = 200;
+    document.cardsPerPage = 64;
 
     // icons = Array.apply(null, {length: 64});
 
-    icons.concat(icons)
+    icons.concat(icons).concat(icons).concat(icons).concat(icons)
         .reduce(function (prev, val, idx) {
             // console.log(arguments);
             
@@ -374,7 +374,11 @@ function init(ev) {
                 newPage.appendChild(newCard);
             });
 
-            document.body.appendChild(newPage);
+            
+            var pgWrapper = document.createElement('div');
+            pgWrapper.classList.add('pg-wrapper');
+            pgWrapper.appendChild(newPage);
+            document.body.appendChild(pgWrapper);
         });
         
         window.addEventListener('hashchange', function (ev) {
