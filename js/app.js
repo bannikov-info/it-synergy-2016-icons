@@ -411,7 +411,7 @@ function init(ev) {
                 if(!!match){
                     return {
                         format: match[1],
-                        orientation: match[2];
+                        orientation: match[2]
                     };
                 };
             }, null)
