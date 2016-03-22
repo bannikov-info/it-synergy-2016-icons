@@ -19,8 +19,8 @@
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-mail.svg) | Почта | Канал коммуникации через электронную почту
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-phone.svg) | Внутренний телефон | Канал коммуникации через корпоративную телефонную систему по внутреннему короткому номеру
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-business-trip.svg) | Коммандировка | Отражает способ коммуникации через коммандировки
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа | Отражает способ коммуникации через рабочие группы
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания | Отражает способ коммуникации через собрания
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-work-group.svg) | Рабочая группа | Отражает способ коммуникации через участие в рабочих группах
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-meeting.svg) | Собрания | Отражает способ коммуникации в процессе рабочих собраний
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-feedback.svg) | Обратная связь | Отражает обратную связь по результатапм работы
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-videoconference.svg) | Видеоконференция | Отражает способ коммуникации через видеоконференции
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/communication-icons/communications-personal.svg) | Личный контакт | Отраражает способ коммуникации по средством личного контакта/беседы
@@ -51,55 +51,59 @@
 
 ## Роль (Павел Игонин 015)
 
+Иконки этой группы используются на схемах для обозначения участников процессов и их роли в них.
+
 Иконка | Название | Описание
 -------|----------|----------
  | Шаблон Роль |
- | ИТ координатор |
+ | ИТ координатор | ИТ-специалист учавствующий в процессе отрытия магазина и выполняющий роль координатора
  | Ит специалист магазина |
- | Клиент |
- | ОРГА |
- | Пользователь |
- | Аутсорсинг |
- | Поставщик\\подрядчик |
- | Специалист 2 уровня поддержки |
- | Пользователь другого магазина |
- | исполнитель |
- | Колл центр |
- | КУ |
- | Покупатель |
- | 3 уровень поддержки |
+ | Клиент | 
+ | ОРГА | Сотрудник Отдела Организации Операция и Автоматизации
+ | Пользователь | Сотрудник или клиент компании, использующий в процессе своей деятельности объекты ИТ-инфраструктуры (ПО, оорудование, сервисы...)
+ | Аутсорсинг | Внешняя организация-партнер, обслуживающие или предоставляющие ИТ-инфраструктуру.
+ | Поставщик/подрядчик | Внешняя организация-партнер, выполняющие поставку оборудования/расходных материалов/Лицензий ПО
+ | Специалист 2 уровня поддержки | Как правило сотрудник компании, выполняющий утранение сбоев по заявкам ИТ-специалистов магазинов
+ | Пользователь другого магазина | 
+ | Исполнитель |
+ | Колл центр | Сотрудник Колл-Центра
+ | КУ | Контроллер Управления
+ | Покупатель | 
+ | 3 уровень поддержки | Как правило, сотрудники компаний-разработчикав/поставщикав поставщиков оборудования/ПО, выполняющие роль технической поддержки.
  | Helpdesk |
  | Директора ИТ |
 
  -------------------------------------------------------------------------------------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site.svg) Место присутствия (Николай Ветров 043)
 
-Иконки из этого набора используются для отражения на схемах мест, где исполь
+Места териториального присутствия ИТ-инфраструктруры и пользователей. Используются на схемах для уточнения территориального контекста. 
+
+К примеру для обозначения того, что один участок схемы отражает взамодействие пользователей и ИТ открывающихся магазинов по некоторой задаче. Вто же время, как по такой же задаче пользователи и ИТ уже открытых магазинов будут пользоваться иной схемой взаимодействия.
 
 Иконка | Название | Описание
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-template.svg) | Шаблон Место Присутствия |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-office.svg) | временный офис |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-office.svg) | Временный Офис |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-temporary-reception-48px.svg) | Временная приемка |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-shop.svg) | Магазин |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-region-office.svg) | Региональный офис |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-remote-work-area.svg) | Удаленное рабочее место |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-time-zones.svg) | Часовые пояса |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-balisage.svg) | Бализаж |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-regions.svg) | Регион ЛМ |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-work-area.svg) | АРМ |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-distribution-center.svg) | РЦ |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-central-office.svg) | ЦО |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-regions.svg) | Регион ЛМ | Регион Компании в целом как пользователь ИТ-инфраструктуры
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-work-area.svg) | АРМ | Рабочее место с компьютером и/или оргтехникой
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-distribution-center.svg) | РЦ | Распределительный Центр
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-central-office.svg) | ЦО | Центральный Офис
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site-new-shop.svg) | Открывающиеся магазины |
 ------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw.svg) Оборудование (Николай Ветров 043)
 Иконка | Название | Описание
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-template.svg) | Шаблон Оборудование |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-san.svg) | СХД |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-mobile.svg) | Мобильная связь |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-office.svg) | Оргтехника |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-server.svg) | Сервера |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-san.svg) | СХД | Иситемы Хранения Данных (сетевые папки, базы данных)
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-mobile.svg) | Мобильная связь | Сотовые телефоны, планшеты, смартфоны
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-office.svg) | Оргтехника | Принтеры, планшетные сканеры, форматная печатающая техника, ламинаторы...
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/hw-icons/hw-server.svg) | Сервера | Оборудование, размещаемое в серверной магазина
 
 --------------------------------------------------------------------
 
@@ -107,11 +111,11 @@
 Иконка | Название | Описание
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-template.svg) | Шаблон Знания Компании |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-spectial.svg) | Знания ИТ специалиста |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-special.svg) | Знания ИТ специалиста |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-education.svg) | Обучение |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-store.svg) | Хранилище инструкций |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-internal-orders.svg) | Внутренние Приказы |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-experience.svg) | Опыт\\знания |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-experience.svg) | Опыт/знания |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-responsibility.svg) | Отвественность |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-it-secure.svg) | Положение по ИБ |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/knowing-icons/knowing-official-instructions.svg) | Должностная инструкция |
@@ -119,16 +123,19 @@
 --------------------------------------------------------------
 
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks.svg) Области задач (Банников Евгений 025)
+
+Эти иконки используются для обозначения темы/задачи, в рамках которой отражено взаимодействие участников на блоке схемы.
+
 Иконка | Название | Описание
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-template.svg) | Шаблон Области Задач |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-service-request.svg) | Запросы на обслуживание |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-change-request.svg) | Запрос на изменение |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-audit.svg) | Аудит |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-bi.svg) | Аналитика |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-automation.svg) | Автоматизация |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-failure-elimination.svg) | Устранение сбоев |
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg) | Консультация и обучение |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-service-request.svg) | Запросы на обслуживание | Заявки пользователей на настройту/установку ПО/оборудования. Организацию рабочих мест.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-change-request.svg) | Запрос на изменение | Процедура, в рамках которой вносятся изменения/дополнения в существующие бизнес-процессы. А также внедряются новых.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-audit.svg) | Аудит | Процесс контроля правильности работы бизнас-процессов, состояния информационной безопасности, соблюдения должностных и рабочих инструкций...
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-bi.svg) | Аналитика | Процесс сбора, анализа и обработки бизнес-данных а также составления на основе результатов отчетов, презентаций, системы отчетности.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-automation.svg) | Автоматизация | Процесс внедрения в бизнес-процессы изменений, призваных полностью или частично их автоматизировать.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-failure-elimination.svg) | Устранение сбоев | Заявки пользователей на устранение неполадок/ошибок/сбоев в работе ПО/оборудования.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tasks-icons/tasks-learn.svg) | Консультация и обучение | Процесс передачи знаний о работе бизнес-процессов и систем пользователям для дальнейшего использования ими в работе. Также процесс передачи знаний, навыков и опыта между IT-специалистами как одного так и разного уровня.
 
 -----------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/other-icons/other.svg) ДРУГОЕ (Кирилл Гриднев 004)
