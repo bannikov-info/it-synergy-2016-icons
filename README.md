@@ -51,34 +51,34 @@
 
 -------------------------------------------------------------------
 
-## Роль (Павел Игонин 015)
+## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles.svg) Роль (Павел Игонин 015)
 
 Иконки этой группы используются на схемах для обозначения участников процессов и их ролей в них.
 
 Иконка | Название | Описание
 -------|----------|----------
- | Шаблон Роль |
- | ИТ координатор | ИТ-специалист учавствующий в процессе отрытия магазина и выполняющий роль координатора
- | Ит специалист магазина |
- | Клиент | 
- | ОРГА | Сотрудник Отдела Организации Операция и Автоматизации
- | Пользователь | Сотрудник или клиент компании, использующий в процессе своей деятельности объекты ИТ-инфраструктуры (ПО, оорудование, сервисы...)
- | Аутсорсинг | Внешняя организация-партнер, обслуживающие или предоставляющие ИТ-инфраструктуру.
- | Поставщик/подрядчик | Внешняя организация-партнер, выполняющие поставку оборудования/расходных материалов/Лицензий ПО
- | Специалист 2 уровня поддержки | Как правило сотрудник компании, выполняющий утранение сбоев по заявкам ИТ-специалистов магазинов
- | Пользователь другого магазина | 
- | Исполнитель | 
- | Колл центр | Сотрудник Колл-Центра
- | КУ | Контроллер Управления магазина
- | Покупатель | Покупатель магазина Леруа Мерлен
- | 3 уровень поддержки | Как правило, сотрудники компаний-разработчикав/поставщикав поставщиков оборудования/ПО, выполняющие роль технической поддержки.
- | Helpdesk |
- | Директора ИТ |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-template.svg) | Шаблон Роль |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-coord.svg) | ИТ координатор | ИТ-специалист учавствующий в процессе отрытия магазина и выполняющий роль координатора
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-spec.svg) | Ит специалист магазина |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-client.svg) | Клиент |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-orga.svg) | ОРГА | Сотрудник Отдела Организации Операция и Автоматизации
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-user.svg) | Пользователь | Сотрудник или клиент компании, использующий в процессе своей деятельности объекты ИТ-инфраструктуры (ПО, оорудование, сервисы...)
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-outsource.svg) | Аутсорсинг | Внешняя организация-партнер, обслуживающие или предоставляющие ИТ-инфраструктуру.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-supplier.svg) | Поставщик/подрядчик | Внешняя организация-партнер, выполняющие поставку оборудования/расходных материалов/Лицензий ПО
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-level-2.svg) | Специалист 2 уровня поддержки | Как правило сотрудник компании, выполняющий утранение сбоев по заявкам ИТ-специалистов магазинов
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-other-user.svg) | Пользователь другого магазина |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-implementer.svg) | Исполнитель |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-call-center.svg) | Колл центр | Сотрудник Колл-Центра
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-cc.svg) | КУ | Контроллер Управления магазина
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-customer.svg) | Покупатель | Покупатель магазина Леруа Мерлен
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-level-3.svg) | 3 уровень поддержки | Как правило, сотрудники компаний-разработчикав/поставщикав поставщиков оборудования/ПО, выполняющие роль технической поддержки.
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-helpdesk.svg) | Helpdesk |
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-director.svg) | Директора ИТ |
 
  -------------------------------------------------------------------------------------------------------------------------------------------
 ## ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/site-icons/site.svg) Место присутствия (Николай Ветров 043)
 
-Места териториального присутствия ИТ-инфраструктруры и пользователей. Используются на схемах для уточнения териториального контекста. 
+Места териториального присутствия ИТ-инфраструктруры и пользователей. Используются на схемах для уточнения териториального контекста.
 
 К примеру для обозначения того, что один участок схемы отражает взамодействие пользователей и ИТ открывающихся магазинов по некоторой задаче. В то же время, по такой же задаче пользователи и ИТ уже открытых магазинов будут пользоваться иной схемой взаимодействия.
 
@@ -160,12 +160,12 @@
 -------|----------|----------
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-template.svg) | Шаблон Инструменты/методы Решения |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-incident.svg) | Инцидент | Заявка, зарегистрированная в системе учета заявок и имеющая регистрационный номер.
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-mail.svg) | Почта | 
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-mail.svg) | Почта |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-helpdesk.svg) | Система учета заявок | Комплекс оборудования и ПО, используемые для регистрации инцидентов и их передачи между разными уровнями техподдержки
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-it.svg) | Инструменты ИТ |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-monitoring.svg) | мониторинг | Комплекс ПО, процедур и мероприятий применяемых для отслеживания состояния Информационных Систем а также выявления и прогнозирования сбоев и ошибок в их работе.
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-planing.svg) | Планирование | Процесс проектирования, документирования и распределения ресурсов для реализации поставленных задач и целей.
-![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-best-practice.svg) | Лучшие практики | 
+![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-best-practice.svg) | Лучшие практики |
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-shop-projects.svg) | Уникальные проекты магазина | ПО и процессы, разработанные и реализованные силами силами и с применением ресурсов магазинов.
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-delegate.svg) | Делегирование прав | Способ организации работы, при котором часть функций одного участника процесса передается другому участнику в целях повышения эффективности работы или как инструмент решения возникающих в процессепроблем.
 ![](https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/tools-icons/tools-intraru.svg) | Интрару | Корпоративный информационный портал, доступный по компьютерной сети.
