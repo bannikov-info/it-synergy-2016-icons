@@ -332,9 +332,77 @@ function init(ev) {
         {
             src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/trable-icons/trable-priority.svg',
             title: 'Срочность'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-template.svg',
+            title: ''
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-coord.svg',
+            title: 'ИТ координатор'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-spec.svg',
+            title: 'ИТ-специалист магазина'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-client.svg',
+            title: 'Клиент'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-orga.svg',
+            title: 'ОРГА'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-user.svg',
+            title: 'Пользователь'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-outsource.svg',
+            title: 'Аутсорсинг'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-supplier.svg',
+            title: 'Поставщик/подрядчик'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-level-2.svg',
+            title: 'Специалист 2 уровня поддержки'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-other-user.svg',
+            title: 'Пользователь другого магазина'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-implementer.svg',
+            title: 'Исполнитель'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-call-center.svg',
+            title: 'Колл-центр'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-cc.svg',
+            title: 'Контроллер Управления'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-customer.svg',
+            title: 'Покупатель'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-level-3.svg',
+            title: '3 уровень поддержки'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-helpdesk.svg',
+            title: 'Helpdesk'
+        },
+        {
+            src: 'https://rawgit.com/bannikov-info/it-synergy-2016-icons/master/roles-icons/roles-it-director.svg',
+            title: 'Директора ИТ'
         }
     ];
-    
+
     document.cardsPerPage = 64;
 
     // icons = Array.apply(null, {length: 64});
@@ -342,7 +410,7 @@ function init(ev) {
     icons.concat(icons).concat(icons).concat(icons).concat(icons)
         .reduce(function (prev, val, idx) {
             // console.log(arguments);
-            
+
             var i = idx/document.cardsPerPage>>0;
 
             if(prev[i] === undefined) {prev[i] = []};
@@ -374,13 +442,13 @@ function init(ev) {
                 newPage.appendChild(newCard);
             });
 
-            
+
             var pgWrapper = document.createElement('div');
             pgWrapper.classList.add('pg-wrapper');
             pgWrapper.appendChild(newPage);
             document.body.appendChild(pgWrapper);
         });
-        
+
         window.addEventListener('hashchange', function (ev) {
             // body...
             // debugger;
@@ -389,15 +457,15 @@ function init(ev) {
                 document.setCardFormat(hash);
             }
         }, false);
-        
-        
+
+
         var hash = location.hash.slice(1);
         if((/card_a\d{1,2}_(landscape|portrait)/i).test(hash)){
             document.setCardFormat(hash);
         }
-        
+
         location.hash = location.hash || "card_a9_portrait";
-        
+
 };
 
 // // console.log(document);
@@ -417,14 +485,14 @@ document.setCardFormat = function(className){
         pgOrient = cardOrient;
     }else{
         pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
-        
+
     };
     // console.log('pgOrient: '+pgOrient);
-    
+
     var pg = $('.page');
     pg.removeClass(['page_a4_landscape', 'page_a4_portrait'].join(' '));
     pg.addClass(['page','a4',pgOrient].join('_'));
-    
+
     var card = $('.card');
     card.removeClass(function(){
         return ['a7','a8','a9','a10']
