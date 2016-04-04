@@ -1,26 +1,157 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>cards</title>
-        <link rel="stylesheet" href="css/main.css" media="screen,print" title="no title" charset="utf-8">
-        <!--<link rel="stylesheet" href="css/papper.css" media="print" title="no title" charset="utf-8">-->
-    </head>
-    <body>
+<html lang="ru" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+  <link rel="stylesheet" href="css/main.css" media="screen,print" title="no title" charset="utf-8">
+</head>
+<body ng-app="BlankApp" ng-cloak layout1="column" ng-controller="AppController"  id="content">
+
+        <md-toolbar layout="row" class="md-whiteframe-z1 hide-on-print">
+            <div class="md-toolbar-tools">
+                <md-button id="main" class="menu" hide-gt-sm ng-click="ul.toggleList()" aria-label="Show User List">
+                </md-button>
+                <md-icon md-svg-icon="menu" ></md-icon>
+                <h3>Cинергия IT 2016: Карточки/{{cardsPerPage}}</h3>
+
+                <span flex></span>
+                <md-menu>
+                    <md-button  ng-click="$mdOpenMenu($event)">Формат</md-button>
+                    <md-menu-content  width="4">
+                        <md-menu-item ng-repeat="format in formats">
+                            <a href="#{{format.id}}" ng-click="$mdCloseMenu($event)" class="md-button">{{format.title}}</a>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </div>
+        </md-toolbar>
 
 
-        <div class="hide">
-            <section class="page page_a4_landscape">
-
+        <section class="page {{pageClass}}" ng-repeat="page in cardPages">
+            <section class="card {{cardClass}}" ng-repeat="card in page">
+                <header class="card__header">{{card.title}}</header>
+                <div class="card__icon">
+                    <img ng-src="{{card.src}}" class="card__icon-image" alt=""/>
+                </div>
             </section>
-            <section class="card card_a9_portrait">
-            <header class="card__header"></header>
-            <div class="card__icon"></div>
-            </section>
-        </div>
+        </section>
 
-        <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
+      </div>
 
-    </body>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">
+    /**
+     * You must include the dependency on 'ngMaterial'
+     */
+    angular.module('BlankApp', ['ngMaterial', 'angular.filter'])
+        .constant('formats', [
+            {id: 'card_a7_portrait', title: 'A7 Портрет'},
+            {id: 'card_a7_landscape', title: 'A7 Ландшафт'},
+            {id: 'card_a8_portrait', title: 'A8 Портрет'},
+            {id: 'card_a8_landscape', title: 'A8 Ландшафт'},
+            {id: 'card_a9_portrait', title: 'A9 Портрет'},
+            {id: 'card_a9_landscape', title: 'A9 Ландшафт'},
+            {id: 'card_a10_portrait', title: 'A10 Портрет'},
+            {id: 'card_a10_landscape', title: 'A10 Ландшафт'}
+        ])
+        .controller('AppController', ['$scope', '$window', '$location', 'formats', 'cardIcons',
+            function ($scope, $window, $location, formats, cardIcons) {
+                $scope.formats = formats;
+                $scope.cards = cardIcons;
+                $scope.cardClass = '';
+                $scope.pageClass = '';
+
+                $scope.$watch('cardClass', function (className) {
+                    debugger
+                    var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
+                    var match = className.match(reg);
+                    var formatIdx = Number.parseInt(match[1]);
+                    setCardsPerPage(Math.pow(2, formatIdx-4));
+
+                    $scope.pageClass = getPageClass(className);
+                    $scope.cardPages = getCardPages(className);
+                })
+
+                $($window).bind('hashchange', function (ev) {
+
+                    // debugger;
+                    var className = location.hash.slice(2);
+                    $scope.cardClass = className;
+
+                });
+
+                var className = location.hash.slice(2);
+                if((/^card_a(\d{1,2})_(landscape|portrait)/i).test(className)){
+                    $scope.cardClass = className
+                }else{
+                    location.hash = "#card_a9_portrait";
+                    location.reload(false);
+                }
+
+                function setCardsPerPage(val){
+                    $scope.cardsPerPage = val;
+                    // console.log('set cardsperpage: '+val);
+
+                    // debugger;
+                }
+
+                function getCardPages(cardsPerPage) {
+                    var res = cardIcons
+                        .reduce(function (prev, val, idx) {
+                            // console.log(arguments);
+
+                            var i = idx/cardsPerPage>>0;
+
+                            if(prev[i] === undefined) {prev[i] = []};
+                            prev[i].push(val);
+
+                            return prev;
+                        },[]);
+                    // debugger;
+                    return res;
+                }
+
+                function getPageClass(cardClass){
+                    var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
+                    var match = cardClass.match(reg);
+                    var formatIdx = Number.parseInt(match[1]);
+                    var cardOrient = match[2];
+                    var pgOrient = "";
+                    // debugger;
+                    if (formatIdx%2 == 0){
+                        pgOrient = cardOrient;
+                    }else{
+                        pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
+
+                    };
+
+                    var pageClass = ['page','a4',pgOrient].join('_');
+                    console.log('Page Class: '+pageClass);
+                    return pageClass;
+                }
+
+            }])
+  </script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- <script type="text/javascript" src="js/app.js"></script> -->
+  <script type="text/javascript" src="js/cards.ng.js"></script>
+
+</body>
 </html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->

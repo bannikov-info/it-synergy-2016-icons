@@ -10,6 +10,10 @@ html{
     html{
         font-size: 1mm;
     }
+
+    .hide-on-print{
+        display: none;
+    }
 }
 body{
     /*border: .1px solid transparent;*/
@@ -35,13 +39,13 @@ body{
 }
 @media print{
     .page{
-        font-size: 1mm;    
+        font-size: 1mm;
     }
-    
+
 }
 .pg-wrapper{
         page-break-after:always;
-    }    
+    }
 .page_a4_landscape{
     /*min-height: 210em;*/
     width: 296em;
@@ -70,12 +74,12 @@ body{
 
 
 .card_a7_portrait{
-    height: 105em;
+    height: 104.5em;
     width: 74em;
 }
 .card_a7_landscape{
     width: 105em;
-    height: 74em;
+    height: 74.2em;
 }
 
 .card_a8_portrait{

@@ -403,11 +403,14 @@ function init(ev) {
         }
     ];
 
-    document.cardsPerPage = 64;
+    // document.cardsPerPage = 8;
+
 
     // icons = Array.apply(null, {length: 64});
 
-    icons.concat(icons).concat(icons).concat(icons).concat(icons)
+    var documentBody = $('#content')[0];
+
+    icons
         .reduce(function (prev, val, idx) {
             // console.log(arguments);
 
@@ -420,6 +423,7 @@ function init(ev) {
         }, [])
         .forEach(function (iconArray, idx) {
             var newPage = page.cloneNode(true);
+
 
             iconArray.forEach(function (icon, idx){
                 var newCard = card.cloneNode(true);
@@ -446,13 +450,14 @@ function init(ev) {
             var pgWrapper = document.createElement('div');
             pgWrapper.classList.add('pg-wrapper');
             pgWrapper.appendChild(newPage);
-            document.body.appendChild(pgWrapper);
+            documentBody.appendChild(pgWrapper);
         });
 
         window.addEventListener('hashchange', function (ev) {
             // body...
             // debugger;
             var hash = location.hash.slice(1);
+            // self.setDocumentPerPage(Number.parseInt())
             if((/card_a\d{1,2}_(landscape|portrait)/i).test(hash)){
                 document.setCardFormat(hash);
             }
@@ -461,6 +466,7 @@ function init(ev) {
 
         var hash = location.hash.slice(1);
         if((/card_a\d{1,2}_(landscape|portrait)/i).test(hash)){
+
             document.setCardFormat(hash);
         }
 
@@ -477,6 +483,7 @@ document.setCardFormat = function(className){
     var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
     var match = className.match(reg);
     var formatIdx = Number.parseInt(match[1]);
+    document.setCardsPerPage(Math.pow(2, formatIdx-4));
     var cardOrient = match[2];
     // console.log('card orientation: '+cardOrient);
     // console.log('formatIdx: '+formatIdx);
@@ -505,3 +512,8 @@ document.setCardFormat = function(className){
     });
     card.addClass(className);
 };
+
+document.setCardsPerPage = function (val) {
+    document.cardsPerPage = val;
+    console.log('cards per page: '+val);
+}
