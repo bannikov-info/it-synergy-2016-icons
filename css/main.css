@@ -79,17 +79,44 @@ body{
 }
 .card_a7_landscape{
     width: 105em;
-    height: 74.2em;
+    height: 74.26em;
+}
+.card_a7_portrait .card__icon,
+.card_a7_landscape .card__icon{
+    width: 48em;
+    height: 48em;
+}
+.card_a7_portrait .card__header{
+    font-size: 6em;
+    height: 24rem;
+}
+.card_a7_landscape .card__header{
+    font-size: 6em;
+    height: 12rem;
 }
 
 .card_a8_portrait{
-    height: 74em;
+    height: 74.3em;
     width: 52.5em;
 }
 .card_a8_landscape{
     width: 74em;
-    height: 52.5em;
+    height: 52.3em;
 }
+.card_a8_portrait .card__icon,
+.card_a8_landscape .card__icon{
+    width: 32em;
+    height: 32em;
+}
+.card_a8_portrait .card__header{
+    font-size: 6em;
+    height: 24rem;
+}
+.card_a8_landscape .card__header{
+    font-size: 6em;
+    height: 12rem;
+}
+
 
 .card_a9_portrait{
     height: 52.25em;

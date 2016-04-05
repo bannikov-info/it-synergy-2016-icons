@@ -12,14 +12,22 @@
                 <md-button id="main" class="menu" hide-gt-sm ng-click="ul.toggleList()" aria-label="Show User List">
                 </md-button>
                 <md-icon md-svg-icon="menu" ></md-icon>
-                <h3>Cинергия IT 2016: Карточки/{{cardsPerPage}}</h3>
+                <h3>Cинергия IT 2016: Карточки / {{cardFormat | uppercase}}</h3>
 
                 <span flex></span>
                 <md-menu>
                     <md-button  ng-click="$mdOpenMenu($event)">Формат</md-button>
                     <md-menu-content  width="4">
                         <md-menu-item ng-repeat="format in formats">
-                            <a href="#{{format.id}}" ng-click="$mdCloseMenu($event)" class="md-button">{{format.title}}</a>
+                            <a href="#{{format.id}}" ng-click="$mdCloseMenu($event)" class="md-button" ng-class="{'md-primary': cardClass === format.id}">
+                                <div layout="row" flex>
+                                    <p flex>
+                                        {{format.title}}
+                                    </p>
+                                    <md-icon md-menu-align-target md-svg-icon="orient:landscape" ng-if="isLandscape(format.id)"></md-icon>
+                                    <md-icon md-menu-align-target md-svg-icon="orient:portrait" ng-if="isPortrait(format.id)"></md-icon>
+                                </div>
+                            </a>
                         </md-menu-item>
                     </md-menu-content>
                 </md-menu>
@@ -49,103 +57,8 @@
   <!-- Angular Material Library -->
   <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 
-  <!-- Your application bootstrap  -->
-  <script type="text/javascript">
-    /**
-     * You must include the dependency on 'ngMaterial'
-     */
-    angular.module('BlankApp', ['ngMaterial', 'angular.filter'])
-        .constant('formats', [
-            {id: 'card_a7_portrait', title: 'A7 Портрет'},
-            {id: 'card_a7_landscape', title: 'A7 Ландшафт'},
-            {id: 'card_a8_portrait', title: 'A8 Портрет'},
-            {id: 'card_a8_landscape', title: 'A8 Ландшафт'},
-            {id: 'card_a9_portrait', title: 'A9 Портрет'},
-            {id: 'card_a9_landscape', title: 'A9 Ландшафт'},
-            {id: 'card_a10_portrait', title: 'A10 Портрет'},
-            {id: 'card_a10_landscape', title: 'A10 Ландшафт'}
-        ])
-        .controller('AppController', ['$scope', '$window', '$location', 'formats', 'cardIcons',
-            function ($scope, $window, $location, formats, cardIcons) {
-                $scope.formats = formats;
-                $scope.cards = cardIcons;
-                $scope.cardClass = '';
-                $scope.pageClass = '';
-
-                $scope.$watch('cardClass', function (className) {
-                    debugger
-                    var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
-                    var match = className.match(reg);
-                    var formatIdx = Number.parseInt(match[1]);
-                    setCardsPerPage(Math.pow(2, formatIdx-4));
-
-                    $scope.pageClass = getPageClass(className);
-                    $scope.cardPages = getCardPages(className);
-                })
-
-                $($window).bind('hashchange', function (ev) {
-
-                    // debugger;
-                    var className = location.hash.slice(2);
-                    $scope.cardClass = className;
-
-                });
-
-                var className = location.hash.slice(2);
-                if((/^card_a(\d{1,2})_(landscape|portrait)/i).test(className)){
-                    $scope.cardClass = className
-                }else{
-                    location.hash = "#card_a9_portrait";
-                    location.reload(false);
-                }
-
-                function setCardsPerPage(val){
-                    $scope.cardsPerPage = val;
-                    // console.log('set cardsperpage: '+val);
-
-                    // debugger;
-                }
-
-                function getCardPages(cardsPerPage) {
-                    var res = cardIcons
-                        .reduce(function (prev, val, idx) {
-                            // console.log(arguments);
-
-                            var i = idx/cardsPerPage>>0;
-
-                            if(prev[i] === undefined) {prev[i] = []};
-                            prev[i].push(val);
-
-                            return prev;
-                        },[]);
-                    // debugger;
-                    return res;
-                }
-
-                function getPageClass(cardClass){
-                    var reg = /^card_a(\d{1,2})_(landscape|portrait)/i;
-                    var match = cardClass.match(reg);
-                    var formatIdx = Number.parseInt(match[1]);
-                    var cardOrient = match[2];
-                    var pgOrient = "";
-                    // debugger;
-                    if (formatIdx%2 == 0){
-                        pgOrient = cardOrient;
-                    }else{
-                        pgOrient = (/(landscape)/i).test(cardOrient) ? 'portrait' : 'landscape';
-
-                    };
-
-                    var pageClass = ['page','a4',pgOrient].join('_');
-                    console.log('Page Class: '+pageClass);
-                    return pageClass;
-                }
-
-            }])
-  </script>
-
   <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-  <!-- <script type="text/javascript" src="js/app.js"></script> -->
+  <script type="text/javascript" src="js/app.ng.js"></script>
   <script type="text/javascript" src="js/cards.ng.js"></script>
 
 </body>
